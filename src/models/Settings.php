@@ -25,7 +25,7 @@ class Settings extends Model
     {
         return [
             ['domainGroupID', 'string'],
-            ['domainGroupID', 'default', 'value' => null],
+            ['domainGroupID', 'default', 'value' => ''],
             ['defaultPreferences', 'boolean'],
             ['defaultPreferences', 'default', 'value' => false],
             ['defaultStatistics', 'boolean'],
