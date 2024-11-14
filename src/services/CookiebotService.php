@@ -24,7 +24,7 @@ class CookiebotService extends Component
      */
     public function requiresConsent(): bool
     {
-        return !$this->isCookieSet() || ($this->isCookieSet() && '-1' !== $_COOKIE[self::COOKIE_NAME]);
+        return !$this->isCookieSet() || ('-1' !== $_COOKIE[self::COOKIE_NAME]);
     }
 
     /**

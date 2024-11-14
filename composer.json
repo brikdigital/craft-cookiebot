@@ -25,15 +25,9 @@
     }
   ],
   "require": {
-    "php": ">=8.0",
-    "craftcms/cms": "^4.0.0"
+    "php": ">=8.2",
+    "craftcms/cms": "^5.0.0"
   },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://asset-packagist.org"
-    }
-  ],
   "autoload": {
     "psr-4": {
       "humandirect\\cookiebot\\": "src/"
